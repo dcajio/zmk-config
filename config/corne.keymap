@@ -10,7 +10,10 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    /* chosen { zmk,underglow = &led_strip; }; */
+   &led_strip {
+      chain-length = 12;
+    };
+    chosen { zmk,underglow = &led_strip; };
 
     behaviors {
         hm: homerow_mods {
