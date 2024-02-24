@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
    &led_strip {
-      chain-length = 12;
+      chain-length = <12>;
     };
 
 / {
