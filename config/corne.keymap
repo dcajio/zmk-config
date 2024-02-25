@@ -41,7 +41,7 @@
 
             bindings = <
 &trans  &kp Q            &kp W           &kp F         &kp P              &kp B        &kp J         &kp L              &kp U         &kp Y            &kp SINGLE_QUOTE  &trans
-&trans  &hm LEFT_META A  &hm LEFT_ALT R  &hm LCTRL S   &hm RIGHT_SHIFT T  &kp G        &kp M         &hm RIGHT_SHIFT N  &hm RCTRL E   &hm RIGHT_ALT I  &hm RIGHT_META O  &trans
+&trans  &hm LEFT_META A  &hm LEFT_ALT R  &hm LCTRL S   &hm RIGHT_SHIFT T  &kp G        &kp M         &hm RIGHT_SHIFT N  &hm RCTRL E   &hm RIGHT_ALT I  &hm RIGHT_META O  &kp SEMI
 &trans  &lt 7 Z          &kp X           &kp C         &kp D              &kp V        &kp K         &kp H              &kp COMMA     &kp PERIOD       &kp SLASH         &trans
                                          &lt 5 ESCAPE  &lt 4 SPACE        &lt 3 TAB    &lt 6 RETURN  &lt 1 BACKSPACE    &lt 2 DELETE
             >;
@@ -58,10 +58,10 @@
 
         func {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9     &kp PRINTSCREEN    &trans  &trans           &trans             &trans         &trans          &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6     &kp SCROLLLOCK     &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK    &trans  &trans           &trans             &trans         &trans          &trans
+                         &trans  &kp SPACE  &kp TAB            &trans  &trans           &trans
             >;
         };
 
