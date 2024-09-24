@@ -40,28 +40,28 @@
             //                                   '--------+---------+---------'       '-------+---------+---------'
 
             bindings = <
-&kp Q   &kp W            &kp E           &kp R         &kp T              &kp Y        &kp U         &kp I              &kp O         &kp P            &kp LEFT_BRACKET          &kp RIGHT_BRACKET
-&trans  &hm LEFT_META A  &hm LEFT_ALT S  &hm LCTRL D   &hm RIGHT_SHIFT F  &kp G        &kp H         &hm RIGHT_SHIFT J  &hm RCTRL K   &hm RIGHT_ALT L  &hm RIGHT_META SEMICOLON  &kp SINGLE_QUOTE
-&trans  &lt 7 Z          &kp X           &kp C         &kp V              &kp B        &kp N         &kp M              &kp COMMA     &kp PERIOD       &kp SLASH                 &trans
-                                         &lt 5 ESCAPE  &lt 4 SPACE        &lt 3 TAB    &lt 6 RETURN  &lt 1 BACKSPACE    &lt 2 DELETE
+&kp TAB         &kp Q    &kp W  &kp E         &kp R               &kp T        &kp Y            &kp U        &kp I            &kp O       &kp P          &kp DELETE
+&kp LEFT_ALT    &kp A    &kp S  &kp D         &kp F               &kp G        &kp H            &kp J        &kp K            &kp L       &kp SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &lt 7 Z  &kp X  &kp C         &kp V               &kp B        &kp N            &kp M        &kp COMMA        &kp PERIOD  &kp SLASH      &trans
+                                &lt 5 ESCAPE  &mt LEFT_GUI ENTER  &lt 1 TAB    &lt 2 BACKSPACE  &lt 1 SPACE  &kp RIGHT_SHIFT
             >;
         };
 
         num {
             bindings = <
-&trans  &kp LEFT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp RIGHT_PARENTHESIS    &trans  &trans           &trans             &trans         &trans          &trans
-&trans  &kp SEMICOLON         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL                &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META  &trans
-&trans  &kp GRAVE             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH            &trans  &trans           &trans             &trans         &trans          &trans
-                                            &kp PERIOD    &kp NUMBER_0  &kp MINUS                &trans  &trans           &trans
+&trans      &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR        &kp PERCENT       &kp CARET        &kp AMPERSAND      &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp LALT    &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8     &kp NUMBER_9          &kp NUMBER_0           &kp RALT
+&kp LSHIFT  &trans           &kp TILDE     &kp GRAVE     &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans           &trans                &trans                 &trans
+                                           &kp LCTRL     &trans            &trans            &trans           &kp LEFT_GUI       &kp RIGHT_SHIFT
             >;
         };
 
         func {
             bindings = <
-&trans  &kp F12  &kp F7  &kp F8  &kp F9     &kp PRINTSCREEN    &trans  &trans           &trans             &trans         &trans          &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6     &kp SCROLLLOCK     &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK    &trans  &trans           &trans             &trans         &trans          &trans
-                         &trans  &kp SPACE  &kp TAB            &trans  &trans           &trans
+&kp F1     &kp F2    &kp F3   &kp F4          &kp F5       &kp F6           &kp F7    &kp F8    &kp F9      &kp F10    &kp F11  &kp F12
+&kp LALT   &kp HOME  &kp END  &kp UNDERSCORE  &trans       &kp PAGE_UP      &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans   &kp RIGHT_ALT
+&kp LSHFT  &trans    &trans   &kp K_COPY      &kp K_PASTE  &kp PAGE_DOWN    &trans    &trans    &trans      &trans     &trans   &trans
+                              &kp LCTRL       &trans       &trans           &trans    &trans    &kp RSHIFT
             >;
         };
 
