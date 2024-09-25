@@ -38,10 +38,10 @@
 
         numbers {
             bindings = <
-&kp F1  &kp F2        &kp F3              &kp F4                 &kp F5             &kp F6                 &kp F7               &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &kp NUMBER_1  &hm LCTRL NUMBER_2  &hm LEFT_GUI NUMBER_3  &hm LALT NUMBER_4  &hm LSHIFT NUMBER_5    &hm RSHIFT NUMBER_6  &trans  &trans  &trans   &trans   &trans
-&trans  &trans        &trans              &trans                 &trans             &trans                 &trans               &trans  &trans  &trans   &trans   &trans
-                                          &trans                 &trans             &trans                 &trans               &trans  &trans
+&kp F1  &kp F2        &kp F3              &kp F4                 &kp F5             &kp F6                 &kp F7               &kp F8             &kp F9                  &kp F10             &kp F11       &kp F12
+&trans  &kp NUMBER_1  &hm LCTRL NUMBER_2  &hm LEFT_GUI NUMBER_3  &hm LALT NUMBER_4  &hm LSHIFT NUMBER_5    &hm RSHIFT NUMBER_6  &hm RALT NUMBER_7  &hm RIGHT_GUI NUMBER_8  &hm RCTRL NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans              &trans                 &trans             &trans                 &trans               &trans             &trans                  &trans              &trans        &trans
+                                          &trans                 &trans             &trans                 &trans               &trans             &trans
             >;
         };
 
